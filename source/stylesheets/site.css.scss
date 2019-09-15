@@ -88,6 +88,7 @@ p {
   border-radius:20px;
 }
 
+
 .content {
   height:2000px;
   background:#9cc6e6;
@@ -116,7 +117,6 @@ p {
 }
 
 .flex-1 {
-  flex-grow:1;
   h2 {
     font-size:30px;
   }
@@ -149,4 +149,12 @@ p {
 
 .headline {
   height:20vh;
+}
+
+@media only screen
+  and (max-width: 550px) {
+    .display, .bio, .port-img {
+      width:70vw;
+    }
+
 }

@@ -47,12 +47,7 @@
   and (max-width: 550px) {
 
   .headline .nav {
-visibility:hidden;
-  }
-
-  .header-nav {
-/*    height: 30vh;
-    flex-direction: column;*/
+    visibility:hidden;
   }
 
   .headline h1 {
@@ -68,8 +63,6 @@ visibility:hidden;
 
   .header-nav-desktop a {
     margin:0;
-/*    font-size: 5em;
-    margin:0 0 8px 0;*/
     color:black;
   }
 

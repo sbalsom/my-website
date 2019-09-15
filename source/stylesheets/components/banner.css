@@ -20,12 +20,9 @@
 }
 
 .display {
+  padding: 20px;
   background:white;
   height:250px;
   width:400px;
   border-radius:20px;
-  p {
-    margin:20px;
-  }
 }
-

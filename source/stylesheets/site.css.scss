@@ -3,15 +3,14 @@
 // font-family: 'Quicksand', sans-serif;
 // font-family: 'Poiret One', cursive;
 
-@import url("components/cards.css");
 @import url("components/banner.css");
-@import url("components/clouds.css");
 @import url("components/sliders.css");
 @import url("components/footers.css");
 @import url("components/headers.css");
-@import url("components/typewriter.css");
 @import url("components/content.css");
+@import url("components/cards.css");
 @import url("components/floating.css");
+@import url("components/carousel.css");
 
 .center-content {
   display: flex;
@@ -37,6 +36,10 @@ body {
 
 .mt-big {
   margin-top:100px;
+}
+
+.mb-big {
+  margin-bottom:100px;
 }
 
 h3 {

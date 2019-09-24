@@ -18,7 +18,7 @@ page '/*.txt', layout: false
 # end
 # sprockets.append_path File.join(root, "node_modules")
 
-activate :livereload
+# activate :livereload
 
 
 #setting directories

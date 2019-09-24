@@ -8,6 +8,8 @@
 @import url("components/footers.css");
 @import url("components/headers.css");
 @import url("components/content.css");
+// still unable to import scss files
+// @import url("_content");
 @import url("components/cards.css");
 @import url("components/floating.css");
 @import url("components/carousel.css");
@@ -26,6 +28,10 @@
 .flex-column {
   display:flex;
   flex-direction:column;
+}
+
+.space-around {
+  justify-content:space-around;
 }
 
 body {

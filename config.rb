@@ -13,10 +13,17 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-# activate :sprockets
+# activate :sprockets do |c|
+#   c.imported_asset_path = "stylesheets/site.scss"
+# end
 # sprockets.append_path File.join(root, "node_modules")
 
-#activate :livereload
+activate :livereload
+
+
+#setting directories
+
+# set :css_dir, 'stylesheets'
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
